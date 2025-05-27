@@ -1,3 +1,5 @@
+package ru.netology.sender;
+
 import static org.mockito.Mockito.*;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -7,11 +9,10 @@ import org.junit.jupiter.api.Test;
 import java.util.HashMap;
 import java.util.Map;
 
+import ru.netology.geo.GeoService;
 import ru.netology.entity.Country;
 import ru.netology.entity.Location;
-import ru.netology.geo.GeoService;
 import ru.netology.i18n.LocalizationService;
-import ru.netology.sender.MessageSenderImpl;
 
 public class MessageSenderImplTest {
 
